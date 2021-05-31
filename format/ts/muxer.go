@@ -2,12 +2,13 @@ package ts
 
 import (
 	"fmt"
+	"io"
+	"time"
+
 	"github.com/fanap-infra/rtsp/av"
 	"github.com/fanap-infra/rtsp/codec/aacparser"
 	"github.com/fanap-infra/rtsp/codec/h264parser"
 	"github.com/fanap-infra/rtsp/format/ts/tsio"
-	"io"
-	"time"
 )
 
 var CodecTypes = []av.CodecType{av.H264, av.AAC}

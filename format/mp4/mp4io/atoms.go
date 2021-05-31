@@ -1,8 +1,9 @@
 package mp4io
 
 import (
-	"github.com/fanap-infra/rtsp/utils/bits/pio"
 	"time"
+
+	"github.com/fanap-infra/rtsp/utils/bits/pio"
 )
 
 const MOOF = Tag(0x6d6f6f66)

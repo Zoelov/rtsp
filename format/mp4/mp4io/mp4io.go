@@ -2,12 +2,13 @@ package mp4io
 
 import (
 	"fmt"
-	"github.com/fanap-infra/rtsp/utils/bits/pio"
 	"io"
 	"math"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/fanap-infra/rtsp/utils/bits/pio"
 )
 
 type ParseError struct {

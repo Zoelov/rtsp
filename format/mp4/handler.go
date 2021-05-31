@@ -1,9 +1,10 @@
 package mp4
 
 import (
+	"io"
+
 	"github.com/fanap-infra/rtsp/av"
 	"github.com/fanap-infra/rtsp/av/avutil"
-	"io"
 )
 
 var CodecTypes = []av.CodecType{av.H264, av.AAC}

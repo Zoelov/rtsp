@@ -52,3 +52,4 @@ func calcCRC32(crc uint32, data []byte) uint32 {
 	}
 	return crc
 }
+

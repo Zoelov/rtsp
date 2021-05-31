@@ -2,9 +2,10 @@ package tsio
 
 import (
 	"fmt"
-	"github.com/fanap-infra/rtsp/utils/bits/pio"
 	"io"
 	"time"
+
+	"github.com/fanap-infra/rtsp/utils/bits/pio"
 )
 
 const (

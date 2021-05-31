@@ -1,9 +1,10 @@
 package ts
 
 import (
+	"io"
+
 	"github.com/fanap-infra/rtsp/av"
 	"github.com/fanap-infra/rtsp/av/avutil"
-	"io"
 )
 
 func Handler(h *avutil.RegisterHandler) {

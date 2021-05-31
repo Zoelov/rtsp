@@ -1,9 +1,10 @@
 package mp4
 
 import (
+	"time"
+
 	"github.com/fanap-infra/rtsp/av"
 	"github.com/fanap-infra/rtsp/format/mp4/mp4io"
-	"time"
 )
 
 type Stream struct {

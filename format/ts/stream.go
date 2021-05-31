@@ -1,9 +1,10 @@
 package ts
 
 import (
+	"time"
+
 	"github.com/fanap-infra/rtsp/av"
 	"github.com/fanap-infra/rtsp/format/ts/tsio"
-	"time"
 )
 
 type Stream struct {

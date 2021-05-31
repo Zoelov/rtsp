@@ -3,13 +3,14 @@ package mp4
 import (
 	"bufio"
 	"fmt"
+	"io"
+	"time"
+
 	"github.com/fanap-infra/rtsp/av"
 	"github.com/fanap-infra/rtsp/codec/aacparser"
 	"github.com/fanap-infra/rtsp/codec/h264parser"
 	"github.com/fanap-infra/rtsp/format/mp4/mp4io"
 	"github.com/fanap-infra/rtsp/utils/bits/pio"
-	"io"
-	"time"
 )
 
 type Muxer struct {
